@@ -1,7 +1,6 @@
-# A blank Mongoose OS library
+# SHT driver for Mongoose OS
 
 
 ## Overview
 
-This blank library is intended to be used as a skeleton for deleloping
-Mongoose OS libraries.
+Support SHT10, SHT11, SHT15
