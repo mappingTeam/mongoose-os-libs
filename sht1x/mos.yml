@@ -1,6 +1,6 @@
 author: mongoose-os
 type: lib
-description: An empty lib that does nothing
+description: SHT1X temperature and humidity sensor driver.
 version: 1.0
 
 sources:
