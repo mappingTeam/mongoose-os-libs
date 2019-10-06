@@ -1,7 +1,7 @@
 # mongoose-os-libs
 
 ## Supported sensors:
-- SHT10, SHT11, SHT15 - Temperature 
+- SHT10, SHT11, SHT15 - Temperature & humidity sensor.
 
 ## How to use:
 - Clone this repository.
