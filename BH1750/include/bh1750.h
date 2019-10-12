@@ -27,10 +27,11 @@ extern "C" {
 #define ONE_TIME_LOW_RES_MODE (0x23)
 
 struct mgos_bh1750;
-struct mgos_bh1750 * mgos_bh1750_create(struct mgos_i2c *i2c, uint8_t i2caddr);
+struct mgos_bh1750* mgos_bh1750_create(struct mgos_i2c *i2c, uint8_t i2caddr, uint8_t mode);
 void mgos_bh1750_destroy(struct mgos_bh1750 *sensor);
-bool mgos_bh1750_get_light_instensity(struct mgos_bh1750 *sensor);
-bool mgos_bh1750_init(void);dd
+float mgos_bh1750_read_light_level(struct mgos_bh1750* sensor, bool maxWait);
+bool mgos_bh1750_set_MtReg(struct mgos_bh1750 * sensor, uint8_t MTreg);
+bool mgos_bh1750_init(void);
 
 #ifdef __cplusplus
 }
