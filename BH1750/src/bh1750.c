@@ -148,7 +148,7 @@ float mgos_bh1750_read_light_level(struct mgos_bh1750 * sensor, bool maxWait) {
   return level;
 }
 
-bool mgos_bh1750_init(void) {
+bool mgos_BH1750_init(void) {
   return true;
 }
 

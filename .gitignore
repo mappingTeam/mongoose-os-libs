@@ -70,3 +70,7 @@ vfs-dev-part/
 vfs-fs-lfs/
 vfs-fs-spiffs/
 wifi/
+aws/
+mqtt/
+rpc-mqtt/
+rpc-service-gpio/

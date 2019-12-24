@@ -1,7 +1,5 @@
-# A blank Mongoose OS library
-
+# BH1750 Light intensity sensor
 
 ## Overview
 
-This blank library is intended to be used as a skeleton for deleloping
-Mongoose OS libraries.
+This library is use to support BH1750 Light intensity sensor in Mongooes OS
